@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image: url( ../img/13.jpg); color: white}
+body h3 {
+    font-family: 'Archivo Black';font-size: 30px; 
+}
+body h1 {
+    font-family: 'Archivo Black';font-size: 60px;
+}
+body p {
+    /*font-family: 'Almarai';font-size: 20px;*/
+	 font-family: 'Archivo';font-size: 15px
+}
+
+*{
+	margin: 0; 
+	padding:0
+}
+
+.slide{
+	width: 100%;
+	height: 100vh;
+}
+.splide img{
+	width: 100%;
+     height: 100vh;
+}
+
+.mySlides {display:none;}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	/*background: #6897AD;*/
+	padding: 20px 50px 20px 50px;
+	display: flex;
+	position: relative
+	
+		
+}
+
+
+#wrapper{
+	width: 100%;
+	position: relative;
+	
+}
+
+section{
+	width: 100%;
+	height:100vh;
+	
+	
+}
+
+header{
+	width: 100%;
+	/*height: 100px;*/
+	/*background: pink;*/
+	/*position: absolute*/
+}
+
+
+footer{
+	width: 100%;
+	height: 100px;
+	background: rgba(224,214,214,0.62);
+	position: absolute
+
+}
+.main{
+	width: 100%
+}
+
+.logo{
+	width:50px;
+    height:65px;
+	/*background: red;*/
+	margin: 0 auto
+	
+}
+.logo img {
+	width:50px;
+    height:65px;
+}
+.btn-secondary{
+	width: 150px;
+	height: 50px
+}
+
+.btn-primary{
+	width: 150px;
+	height: 50px
+}
+.sec1{
+	width: 100%;
+	height: 100vh;
+	
+	
+	justify-content: center;
+	align-content: center
+	
+}
+.text2{
+	width: 1000px;
+    position:absolute;
+    z-index: 10;
+
+}
+
+.slogan{
+	
+	width:500px;
+    position:absolute;
+    z-index: 111;
+	padding-left: 900px;
+	
+	/*transform: rotate(90deg);*/	
+	
+	
+}
+
+.box2{
+	
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	z-index: 10
+}
+.box2 img{
+	width: 1000px;
+	height: 500px;
+	
+	/*animation: example 2s infinite linear alternate;*/
+	
+}
+.box3{
+	width: 300px;
+	height: 100px;
+	/*background: blue;*/
+	position: absolute;
+	z-index: 99;
+	
+	
+}
+.gtbt{
+	width:1000px;
+    position:absolute;
+    z-index: 100;
+	padding: 380px 0px 100px 200px
+}
+
+.tacpham{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	padding-left: 100px;
+	z-index:50;
+	padding-bottom: 50px
+	
+}
+.tacpham img{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	
+}
+
+
+.box4{
+	width: 200px;
+	height: 400px;
+	/*background: pink;*/
+	position: absolute;
+	
+	
+}
+.avt{
+	width: 250px;
+	height: 400px;
+	/*background: pink;*/
+	position: absolute;
+	z-index: 100;
+	padding-left: 500px;
+	padding-top: 100px;
+	animation: avt 2s infinite linear alternate;
+	
+	
+}
+.avt img{
+	width: 250px;
+	height: 400px;
+    
+}
+
+.sec2{
+	width: 600px;
+	height: 100vh;
+	justify-content: center;
+	align-content: center
+	
+
+}
+.box1{
+	width: 50%;
+	height: 100vh;
+	position: absolute;
+	padding-left: 850px;
+	z-index:70
+}
+.chu-c{
+	/*position:absolute;*/
+	width: 50%;
+	height: 100vh;
+	animation: example 2s infinite linear alternate;
+/*	opacity: 80%*/
+	
+}
+.boxr{
+	width: 50%;
+	height: 100vh;
+	position: absolute;
+	/*padding-left: 700px;*/
+	/*z-index: 50*/
+}
+.chu-r{
+	/*position:absolute;*/
+	width: 50%;
+	height: 100vh;
+	animation: example 2s infinite linear alternate;
+	/*opacity: 80%*/
+	
+}
+
+.skillbar{
+	padding-left: 500px;
+	padding-top: 200px
+		
+}
+.text{
+	width: 600px;
+    position:absolute;
+    z-index: 100
+
+}
+.gioithieu{
+	/*position: absolute;*/
+	width: 600px;
+	padding-left: 200px
+	
+}
+
+
+
+.sec3{
+	width:100%;
+	height: 100vh;
+
+	
+}
+.sec4{
+	width:100%;
+	height:100vh;
+	/*background:#F06264;*/
+	position:relative;
+	
+}
+.bia{
+	width:300px;
+	position:absolute;
+	top: 50px;
+	left:80px;
+	transform:rotate(-6deg);
+}
+.poster{
+	width:250px;
+	position:absolute;
+	top:150px;
+	left:100px;
+
+}
+.bia2{
+	width:300px;
+	position:absolute;
+	top:50px;
+	right:80px;
+	
+}
+.princess{
+	width:350px;
+	position:absolute;
+	top:50px;
+	right:100px;
+	transform:rotate(8deg);
+}
+
+.sec5{
+	width:100%;
+	height:100vh;
+	/*background:#585757;*/}
+.box5{
+	width:70%;
+	height:auto;
+	background:#FFFFFF;
+	overflow:hidden;
+	margin:0 auto;
+}
+.box5 img{width:100%}
+
+/*.sp{
+	width: 1000px;
+	height: 100vh;
+	top: 500px
+}
+.w3-content{
+	width: 1000px;
+	height: 100vh;
+	top: 500px
+}*/
+
+.container1{ width: 500px;margin-top:10px;background:#6A6A6A;border-radius:20px}
+/*skillbar*/
+
+
+
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+/*het skillbar*/
+
+@keyframes example {
+	from{transform: translateY(100px)}
+	to{transform: translateY(-100px)}
+}
+@keyframes avt {
+	from{transform: translateX(50px)}
+	to{transform: translateX(-50)}
+}
